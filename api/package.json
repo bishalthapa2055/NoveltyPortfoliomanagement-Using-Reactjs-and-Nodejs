@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-management-novelty",
+  "version": "1.0.0",
+  "proxy": "http://localhost:8000/",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p start:**",
+    "start:app": "react-scripts start",
+    "start:server": "cd api && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  }
+}
